@@ -27,64 +27,7 @@
         };
     };
 
-    combos {
-        compatible = "zmk,combos";
-
-        up {
-            bindings = <&kp UP_ARROW>;
-            key-positions = <55 20>;
-        };
-
-        down {
-            bindings = <&kp DOWN>;
-            key-positions = <55 32>;
-        };
-
-        lefft {
-            bindings = <&kp LEFT>;
-            key-positions = <55 31>;
-        };
-
-        right {
-            bindings = <&kp RIGHT>;
-            key-positions = <55 33>;
-        };
-
-        enter {
-            bindings = <&kp ENTER>;
-            key-positions = <54 53>;
-        };
-
-        back {
-            bindings = <&kp BACKSPACE>;
-            key-positions = <52 53>;
-        };
-
-        delete {
-            bindings = <&kp DELETE>;
-            key-positions = <52 51>;
-        };
-
-        c-left {
-            bindings = <&kp LC(LEFT)>;
-            key-positions = <56 31>;
-        };
-
-        c-right {
-            bindings = <&kp LC(RIGHT)>;
-            key-positions = <56 33>;
-        };
-
-        c-up {
-            bindings = <&kp LC(UP)>;
-            key-positions = <56 20>;
-        };
-
-        c-down {
-            bindings = <&kp LC(DOWN)>;
-            key-positions = <56 32>;
-        };
-    };
+    combos { compatible = "zmk,combos"; };
 
     keymap {
         compatible = "zmk,keymap";
