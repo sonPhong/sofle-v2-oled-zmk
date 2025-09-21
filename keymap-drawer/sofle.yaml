@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: sofle}
 layers:
   default:
-  - '`'
+  - ESC
   - '1'
   - '2'
   - '3'
@@ -25,7 +25,7 @@ layers:
   - O
   - P
   - \
-  - ESCAPE
+  - LEFT SHIFT
   - A
   - S
   - D
@@ -37,7 +37,7 @@ layers:
   - L
   - ;
   - ''''
-  - LSHFT
+  - '`'
   - Z
   - X
   - C
@@ -51,12 +51,12 @@ layers:
   - .
   - /
   - RSHFT
-  - {t: raise, h: toggle}
+  - {t: ▽, type: trans}
   - LEFT ALT
   - LEFT WIN
   - LEFT CONTROL
   - SPACE
-  - RIGHT SHIFT
+  - SPACE
   - ENTER
   - lower
   - '['
